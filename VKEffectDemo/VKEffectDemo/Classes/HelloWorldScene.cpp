@@ -3,6 +3,9 @@
 #include "EffectFire.h"
 #include "EffectHanabi.h"
 #include "EffectFires.h"
+#include "EffectMagicCircle.h"
+#include "EffectThunder.h"
+#include "EffectThunderMagic.h"
 
 using namespace cocos2d;
 using namespace CocosDenshion;
@@ -111,18 +114,11 @@ void HelloWorld::ccTouchEnded(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent
 void HelloWorld::effectIn(CCPoint point){
     
     // create call back function
-    CCDelayTime *delay = CCDelayTime::create(1.0);
-    CCSequence *seq = CCSequence::create(delay,CCCallFunc::create(this, callfunc_selector(HelloWorld::callBack)),NULL);
-    
-    BaseEffectManager *fires = EffectFires::create();
-    fires->setCallBack(seq);
-    this->addChild(fires);
-    fires->effectInCenter();
-    
-    
-    EffectHanabi *hanabi = EffectHanabi::create();
-    this->addChild(hanabi);
-    hanabi->effectInPosition(point);
+    CCSequence *seq = CCSequence::create(CCCallFunc::create(this, callfunc_selector(HelloWorld::callBack)),NULL);
+    BaseEffectManager *effect = EffectThunderMagic::create();
+    this->addChild(effect);
+    effect->setCallBack(seq);
+    effect->effectInPosition(point);
 }
 
 void HelloWorld::callBack(){

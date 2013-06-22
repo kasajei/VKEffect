@@ -20,6 +20,10 @@ BaseEffect::~BaseEffect()
 }
 
 
+float BaseEffect::getAnimationTime(){
+    return frameRate*frameCount;
+}
+
 
 bool BaseEffect::init(){
     CCSpriteFrameCache *cache = CCSpriteFrameCache::sharedSpriteFrameCache();

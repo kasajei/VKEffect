@@ -271,6 +271,16 @@
 		939AE267177596A800A367D3 /* hanabi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 939AE265177596A800A367D3 /* hanabi.plist */; };
 		939AE268177596A800A367D3 /* hanabi.png in Resources */ = {isa = PBXBuildFile; fileRef = 939AE266177596A800A367D3 /* hanabi.png */; };
 		939AE26B177596BF00A367D3 /* EffectHanabi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 939AE269177596BF00A367D3 /* EffectHanabi.cpp */; };
+		939AE2751775B37500A367D3 /* EffectMagicCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 939AE2731775B37500A367D3 /* EffectMagicCircle.cpp */; };
+		939AE2781775B3BA00A367D3 /* magicCircle.plist in Resources */ = {isa = PBXBuildFile; fileRef = 939AE2761775B3BA00A367D3 /* magicCircle.plist */; };
+		939AE2791775B3BA00A367D3 /* magicCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 939AE2771775B3BA00A367D3 /* magicCircle.png */; };
+		939AE27C1775B4DA00A367D3 /* EffectThunder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 939AE27A1775B4DA00A367D3 /* EffectThunder.cpp */; };
+		939AE27F1775B55D00A367D3 /* thunder.plist in Resources */ = {isa = PBXBuildFile; fileRef = 939AE27D1775B55D00A367D3 /* thunder.plist */; };
+		939AE2801775B55D00A367D3 /* thunder.png in Resources */ = {isa = PBXBuildFile; fileRef = 939AE27E1775B55D00A367D3 /* thunder.png */; };
+		939AE2831775B58F00A367D3 /* EffectMokusei.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 939AE2811775B58E00A367D3 /* EffectMokusei.cpp */; };
+		939AE2861775B5BF00A367D3 /* mokusei.plist in Resources */ = {isa = PBXBuildFile; fileRef = 939AE2841775B5BF00A367D3 /* mokusei.plist */; };
+		939AE2871775B5BF00A367D3 /* mokusei.png in Resources */ = {isa = PBXBuildFile; fileRef = 939AE2851775B5BF00A367D3 /* mokusei.png */; };
+		939AE28A1775B7AB00A367D3 /* EffectThunderMagic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 939AE2881775B7AB00A367D3 /* EffectThunderMagic.cpp */; };
 		93A5562B177592CA002090EA /* BaseEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93A55621177592C9002090EA /* BaseEffect.cpp */; };
 		93A5562C177592CA002090EA /* BaseEffectManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93A55623177592CA002090EA /* BaseEffectManager.cpp */; };
 		93A5562D177592CA002090EA /* EffectFire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93A55626177592CA002090EA /* EffectFire.cpp */; };
@@ -847,6 +857,20 @@
 		939AE266177596A800A367D3 /* hanabi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanabi.png; path = ../../Resources/2_hanabi/hanabi.png; sourceTree = "<group>"; };
 		939AE269177596BF00A367D3 /* EffectHanabi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EffectHanabi.cpp; sourceTree = "<group>"; };
 		939AE26A177596BF00A367D3 /* EffectHanabi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectHanabi.h; sourceTree = "<group>"; };
+		939AE2731775B37500A367D3 /* EffectMagicCircle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EffectMagicCircle.cpp; sourceTree = "<group>"; };
+		939AE2741775B37500A367D3 /* EffectMagicCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectMagicCircle.h; sourceTree = "<group>"; };
+		939AE2761775B3BA00A367D3 /* magicCircle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = magicCircle.plist; path = ../../Resources/5_maigcCircle/magicCircle.plist; sourceTree = "<group>"; };
+		939AE2771775B3BA00A367D3 /* magicCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magicCircle.png; path = ../../Resources/5_maigcCircle/magicCircle.png; sourceTree = "<group>"; };
+		939AE27A1775B4DA00A367D3 /* EffectThunder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EffectThunder.cpp; sourceTree = "<group>"; };
+		939AE27B1775B4DA00A367D3 /* EffectThunder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectThunder.h; sourceTree = "<group>"; };
+		939AE27D1775B55D00A367D3 /* thunder.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = thunder.plist; path = ../../Resources/4_thunder/thunder.plist; sourceTree = "<group>"; };
+		939AE27E1775B55D00A367D3 /* thunder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thunder.png; path = ../../Resources/4_thunder/thunder.png; sourceTree = "<group>"; };
+		939AE2811775B58E00A367D3 /* EffectMokusei.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EffectMokusei.cpp; sourceTree = "<group>"; };
+		939AE2821775B58F00A367D3 /* EffectMokusei.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectMokusei.h; sourceTree = "<group>"; };
+		939AE2841775B5BF00A367D3 /* mokusei.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = mokusei.plist; path = ../../Resources/3_mokusei/mokusei.plist; sourceTree = "<group>"; };
+		939AE2851775B5BF00A367D3 /* mokusei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mokusei.png; path = ../../Resources/3_mokusei/mokusei.png; sourceTree = "<group>"; };
+		939AE2881775B7AB00A367D3 /* EffectThunderMagic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EffectThunderMagic.cpp; sourceTree = "<group>"; };
+		939AE2891775B7AB00A367D3 /* EffectThunderMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectThunderMagic.h; sourceTree = "<group>"; };
 		93A55621177592C9002090EA /* BaseEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseEffect.cpp; sourceTree = "<group>"; };
 		93A55622177592CA002090EA /* BaseEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEffect.h; sourceTree = "<group>"; };
 		93A55623177592CA002090EA /* BaseEffectManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseEffectManager.cpp; sourceTree = "<group>"; };
@@ -925,6 +949,12 @@
 		9381855E17748E9A00F761A2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				939AE2841775B5BF00A367D3 /* mokusei.plist */,
+				939AE2851775B5BF00A367D3 /* mokusei.png */,
+				939AE27D1775B55D00A367D3 /* thunder.plist */,
+				939AE27E1775B55D00A367D3 /* thunder.png */,
+				939AE2761775B3BA00A367D3 /* magicCircle.plist */,
+				939AE2771775B3BA00A367D3 /* magicCircle.png */,
 				939AE265177596A800A367D3 /* hanabi.plist */,
 				939AE266177596A800A367D3 /* hanabi.png */,
 				938188FA1774AA2600F761A2 /* fire.plist */,
@@ -2041,6 +2071,12 @@
 				93A55627177592CA002090EA /* EffectFire.h */,
 				939AE269177596BF00A367D3 /* EffectHanabi.cpp */,
 				939AE26A177596BF00A367D3 /* EffectHanabi.h */,
+				939AE2731775B37500A367D3 /* EffectMagicCircle.cpp */,
+				939AE2741775B37500A367D3 /* EffectMagicCircle.h */,
+				939AE27A1775B4DA00A367D3 /* EffectThunder.cpp */,
+				939AE27B1775B4DA00A367D3 /* EffectThunder.h */,
+				939AE2811775B58E00A367D3 /* EffectMokusei.cpp */,
+				939AE2821775B58F00A367D3 /* EffectMokusei.h */,
 			);
 			path = effect;
 			sourceTree = "<group>";
@@ -2050,6 +2086,8 @@
 			children = (
 				93A55629177592CA002090EA /* EffectFires.cpp */,
 				93A5562A177592CA002090EA /* EffectFires.h */,
+				939AE2881775B7AB00A367D3 /* EffectThunderMagic.cpp */,
+				939AE2891775B7AB00A367D3 /* EffectThunderMagic.h */,
 			);
 			path = effects;
 			sourceTree = "<group>";
@@ -2121,6 +2159,12 @@
 				938188FD1774AA2600F761A2 /* fire.png in Resources */,
 				939AE267177596A800A367D3 /* hanabi.plist in Resources */,
 				939AE268177596A800A367D3 /* hanabi.png in Resources */,
+				939AE2781775B3BA00A367D3 /* magicCircle.plist in Resources */,
+				939AE2791775B3BA00A367D3 /* magicCircle.png in Resources */,
+				939AE27F1775B55D00A367D3 /* thunder.plist in Resources */,
+				939AE2801775B55D00A367D3 /* thunder.png in Resources */,
+				939AE2861775B5BF00A367D3 /* mokusei.plist in Resources */,
+				939AE2871775B5BF00A367D3 /* mokusei.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2372,6 +2416,10 @@
 				93A5562D177592CA002090EA /* EffectFire.cpp in Sources */,
 				93A5562E177592CA002090EA /* EffectFires.cpp in Sources */,
 				939AE26B177596BF00A367D3 /* EffectHanabi.cpp in Sources */,
+				939AE2751775B37500A367D3 /* EffectMagicCircle.cpp in Sources */,
+				939AE27C1775B4DA00A367D3 /* EffectThunder.cpp in Sources */,
+				939AE2831775B58F00A367D3 /* EffectMokusei.cpp in Sources */,
+				939AE28A1775B7AB00A367D3 /* EffectThunderMagic.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,6 +23,7 @@ public:
     const char* effectName = "";
     int frameCount = 1;
     float frameRate = 0.1f;
+    float getAnimationTime();
     
     void effectInPosition(cocos2d::CCPoint point);
     void effectInCenter();
