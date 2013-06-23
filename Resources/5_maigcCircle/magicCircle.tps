@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>cocos2d</string>
         <key>textureFileName</key>
-        <filename>magicCircle.png</filename>
+        <filename>HD/magicCircle.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>ditherType</key>
@@ -127,7 +127,7 @@
             <enum type="AndEngine::MagFilter">MagLinear</enum>
         </struct>
         <key>dataFileName</key>
-        <filename>magicCircle.plist</filename>
+        <filename>HD/magicCircle.plist</filename>
         <key>mainExtension</key>
         <string>/HD/</string>
         <key>forceIdenticalLayout</key>

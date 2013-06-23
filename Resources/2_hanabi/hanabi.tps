@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>cocos2d-0.99.4</string>
         <key>textureFileName</key>
-        <filename>hanabi.png</filename>
+        <filename>HD/hanabi.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>ditherType</key>
@@ -127,7 +127,7 @@
             <enum type="AndEngine::MagFilter">MagLinear</enum>
         </struct>
         <key>dataFileName</key>
-        <filename>hanabi.plist</filename>
+        <filename>HD/hanabi.plist</filename>
         <key>mainExtension</key>
         <string>/HD/</string>
         <key>forceIdenticalLayout</key>

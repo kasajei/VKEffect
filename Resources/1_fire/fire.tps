@@ -162,16 +162,16 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>fire_0.png</filename>
-            <filename>fire_1.png</filename>
-            <filename>fire_2.png</filename>
-            <filename>fire_3.png</filename>
-            <filename>fire_4.png</filename>
-            <filename>fire_5.png</filename>
-            <filename>fire_6.png</filename>
-            <filename>fire_7.png</filename>
-            <filename>fire_8.png</filename>
-            <filename>fire_9.png</filename>
+            <filename>png/fire_0.png</filename>
+            <filename>png/fire_1.png</filename>
+            <filename>png/fire_2.png</filename>
+            <filename>png/fire_3.png</filename>
+            <filename>png/fire_4.png</filename>
+            <filename>png/fire_5.png</filename>
+            <filename>png/fire_6.png</filename>
+            <filename>png/fire_7.png</filename>
+            <filename>png/fire_8.png</filename>
+            <filename>png/fire_9.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

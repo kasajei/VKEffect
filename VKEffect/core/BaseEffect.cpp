@@ -70,6 +70,8 @@ void BaseEffect::effect(){
 CCSpriteBatchNode* BaseEffect::getSpriteBatchNode(){
     CCString *spriteSheetName = CCString::createWithFormat("%s.png",effectName);
     CCSpriteBatchNode* spriteBatchNode = CCSpriteBatchNode::create(spriteSheetName->getCString());
+    ccBlendFunc blendFunc = {GL_SRC_ALPHA,GL_ONE};
+    spriteBatchNode->setBlendFunc(blendFunc);
     return spriteBatchNode;
 }
 
