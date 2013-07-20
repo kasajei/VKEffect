@@ -1,4 +1,7 @@
 # VKEffect
+
+VKEffect is used in [LevelUp!](http://apps.vi-king.net/LevelUp)
+
 Effect Animation for cocos2d-x
 You can use effect easily with a sprite sheet.
 
