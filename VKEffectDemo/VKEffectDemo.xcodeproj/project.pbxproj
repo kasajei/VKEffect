@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9315F19E17EF1F3C00C30B1C /* light.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9315F19C17EF1F3C00C30B1C /* light.plist */; };
+		9315F19F17EF1F3C00C30B1C /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = 9315F19D17EF1F3C00C30B1C /* light.png */; };
+		9315F1A217EF1F6B00C30B1C /* EffectLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9315F1A017EF1F6B00C30B1C /* EffectLight.cpp */; };
+		9315F1A517EF231D00C30B1C /* lightSmall.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9315F1A317EF231D00C30B1C /* lightSmall.plist */; };
+		9315F1A617EF231D00C30B1C /* lightSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 9315F1A417EF231D00C30B1C /* lightSmall.png */; };
+		9315F1A917EF233600C30B1C /* EffectLightSmall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9315F1A717EF233600C30B1C /* EffectLightSmall.cpp */; };
+		9315F1AC17EF241A00C30B1C /* EffectLightMagic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9315F1AA17EF241A00C30B1C /* EffectLightMagic.cpp */; };
+		9315F1AE17EF295500C30B1C /* sraim.png in Resources */ = {isa = PBXBuildFile; fileRef = 9315F1AD17EF295500C30B1C /* sraim.png */; };
 		9381854E17748E9A00F761A2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9381854D17748E9A00F761A2 /* QuartzCore.framework */; };
 		9381855017748E9A00F761A2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9381854F17748E9A00F761A2 /* OpenGLES.framework */; };
 		9381855217748E9A00F761A2 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9381855117748E9A00F761A2 /* OpenAL.framework */; };
@@ -288,6 +296,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9315F19C17EF1F3C00C30B1C /* light.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = light.plist; path = ../../Resources/6_light/light.plist; sourceTree = "<group>"; };
+		9315F19D17EF1F3C00C30B1C /* light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = light.png; path = ../../Resources/6_light/light.png; sourceTree = "<group>"; };
+		9315F1A017EF1F6B00C30B1C /* EffectLight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EffectLight.cpp; sourceTree = "<group>"; };
+		9315F1A117EF1F6B00C30B1C /* EffectLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectLight.h; sourceTree = "<group>"; };
+		9315F1A317EF231D00C30B1C /* lightSmall.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = lightSmall.plist; path = ../../Resources/7_lightSmall/lightSmall.plist; sourceTree = "<group>"; };
+		9315F1A417EF231D00C30B1C /* lightSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lightSmall.png; path = ../../Resources/7_lightSmall/lightSmall.png; sourceTree = "<group>"; };
+		9315F1A717EF233600C30B1C /* EffectLightSmall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EffectLightSmall.cpp; sourceTree = "<group>"; };
+		9315F1A817EF233600C30B1C /* EffectLightSmall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectLightSmall.h; sourceTree = "<group>"; };
+		9315F1AA17EF241A00C30B1C /* EffectLightMagic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EffectLightMagic.cpp; sourceTree = "<group>"; };
+		9315F1AB17EF241A00C30B1C /* EffectLightMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectLightMagic.h; sourceTree = "<group>"; };
+		9315F1AD17EF295500C30B1C /* sraim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sraim.png; path = Resources/sraim.png; sourceTree = "<group>"; };
 		9381854A17748E9A00F761A2 /* VKEffectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKEffectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9381854D17748E9A00F761A2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9381854F17748E9A00F761A2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -949,6 +968,9 @@
 		9381855E17748E9A00F761A2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9315F1AD17EF295500C30B1C /* sraim.png */,
+				9315F19C17EF1F3C00C30B1C /* light.plist */,
+				9315F19D17EF1F3C00C30B1C /* light.png */,
 				939AE2841775B5BF00A367D3 /* mokusei.plist */,
 				939AE2851775B5BF00A367D3 /* mokusei.png */,
 				939AE27D1775B55D00A367D3 /* thunder.plist */,
@@ -961,6 +983,8 @@
 				938188FB1774AA2600F761A2 /* fire.png */,
 				9381855F17748E9A00F761A2 /* CloseNormal.png */,
 				9381856117748E9A00F761A2 /* CloseSelected.png */,
+				9315F1A317EF231D00C30B1C /* lightSmall.plist */,
+				9315F1A417EF231D00C30B1C /* lightSmall.png */,
 				9381856317748E9A00F761A2 /* Default.png */,
 				9381856517748E9A00F761A2 /* HelloWorld.png */,
 				9381856717748E9A00F761A2 /* Icon-72.png */,
@@ -2067,6 +2091,10 @@
 		93A55625177592CA002090EA /* effect */ = {
 			isa = PBXGroup;
 			children = (
+				9315F1A717EF233600C30B1C /* EffectLightSmall.cpp */,
+				9315F1A817EF233600C30B1C /* EffectLightSmall.h */,
+				9315F1A017EF1F6B00C30B1C /* EffectLight.cpp */,
+				9315F1A117EF1F6B00C30B1C /* EffectLight.h */,
 				93A55626177592CA002090EA /* EffectFire.cpp */,
 				93A55627177592CA002090EA /* EffectFire.h */,
 				939AE269177596BF00A367D3 /* EffectHanabi.cpp */,
@@ -2084,6 +2112,8 @@
 		93A55628177592CA002090EA /* effects */ = {
 			isa = PBXGroup;
 			children = (
+				9315F1AA17EF241A00C30B1C /* EffectLightMagic.cpp */,
+				9315F1AB17EF241A00C30B1C /* EffectLightMagic.h */,
 				93A55629177592CA002090EA /* EffectFires.cpp */,
 				93A5562A177592CA002090EA /* EffectFires.h */,
 				939AE2881775B7AB00A367D3 /* EffectThunderMagic.cpp */,
@@ -2147,6 +2177,8 @@
 				9381856417748E9A00F761A2 /* Default.png in Resources */,
 				9381856617748E9A00F761A2 /* HelloWorld.png in Resources */,
 				9381856817748E9A00F761A2 /* Icon-72.png in Resources */,
+				9315F19F17EF1F3C00C30B1C /* light.png in Resources */,
+				9315F1A617EF231D00C30B1C /* lightSmall.png in Resources */,
 				9381856A17748E9A00F761A2 /* Icon-Small-50.png in Resources */,
 				9381856C17748E9A00F761A2 /* Icon-Small.png in Resources */,
 				9381856E17748E9A00F761A2 /* Icon-Small@2x.png in Resources */,
@@ -2163,6 +2195,9 @@
 				939AE2791775B3BA00A367D3 /* magicCircle.png in Resources */,
 				939AE27F1775B55D00A367D3 /* thunder.plist in Resources */,
 				939AE2801775B55D00A367D3 /* thunder.png in Resources */,
+				9315F19E17EF1F3C00C30B1C /* light.plist in Resources */,
+				9315F1AE17EF295500C30B1C /* sraim.png in Resources */,
+				9315F1A517EF231D00C30B1C /* lightSmall.plist in Resources */,
 				939AE2861775B5BF00A367D3 /* mokusei.plist in Resources */,
 				939AE2871775B5BF00A367D3 /* mokusei.png in Resources */,
 			);
@@ -2261,6 +2296,7 @@
 				9381869C17748E9B00F761A2 /* CCFileUtilsIOS.mm in Sources */,
 				9381869F17748E9B00F761A2 /* CCImage.mm in Sources */,
 				938186A117748E9B00F761A2 /* CCLock.cpp in Sources */,
+				9315F1A917EF233600C30B1C /* EffectLightSmall.cpp in Sources */,
 				938186A617748E9B00F761A2 /* CCThread.mm in Sources */,
 				938186A917748E9B00F761A2 /* EAGLView.mm in Sources */,
 				938186AE17748E9B00F761A2 /* AccelerometerSimulation.m in Sources */,
@@ -2332,6 +2368,7 @@
 				938187B817748E9D00F761A2 /* CCNode+CCBRelativePositioning.cpp in Sources */,
 				938187BB17748E9D00F761A2 /* CCNodeLoader.cpp in Sources */,
 				938187BE17748E9D00F761A2 /* CCNodeLoaderLibrary.cpp in Sources */,
+				9315F1A217EF1F6B00C30B1C /* EffectLight.cpp in Sources */,
 				938187C217748E9D00F761A2 /* CCParticleSystemQuadLoader.cpp in Sources */,
 				938187C517748E9D00F761A2 /* CCScale9SpriteLoader.cpp in Sources */,
 				938187C817748E9D00F761A2 /* CCScrollViewLoader.cpp in Sources */,
@@ -2408,6 +2445,7 @@
 				938188B517748E9E00F761A2 /* cpSpaceStep.c in Sources */,
 				938188B717748E9E00F761A2 /* cpSpatialIndex.c in Sources */,
 				938188B917748E9E00F761A2 /* cpSweep1D.c in Sources */,
+				9315F1AC17EF241A00C30B1C /* EffectLightMagic.cpp in Sources */,
 				938188BB17748E9E00F761A2 /* cpVect.c in Sources */,
 				938188C217748E9E00F761A2 /* AppDelegate.cpp in Sources */,
 				938188C517748E9E00F761A2 /* HelloWorldScene.cpp in Sources */,

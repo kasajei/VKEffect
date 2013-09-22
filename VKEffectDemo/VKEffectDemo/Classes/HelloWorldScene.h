@@ -26,6 +26,9 @@ public:
     void effectIn(cocos2d::CCPoint point);
     
     void callBack();
+    
+    cocos2d::CCSprite *sprite;
+    cocos2d::CCPoint point;
 };
 
 #endif // __HELLOWORLD_SCENE_H__

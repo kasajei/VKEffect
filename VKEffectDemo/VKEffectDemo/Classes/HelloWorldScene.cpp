@@ -6,6 +6,9 @@
 #include "EffectMagicCircle.h"
 #include "EffectThunder.h"
 #include "EffectThunderMagic.h"
+#include "EffectLightMagic.h"
+#include "EffectLight.h"
+#include "EffectLightSmall.h"
 
 using namespace cocos2d;
 using namespace CocosDenshion;
@@ -68,15 +71,6 @@ bool HelloWorld::init()
 
     // add the label as a child to this layer
     this->addChild(pLabel, 1);
-
-    // add "HelloWorld" splash screen"
-    CCSprite* pSprite = CCSprite::create("HelloWorld.png");
-
-    // position the sprite on the center of the screen
-    pSprite->setPosition( ccp(size.width/2, size.height/2) );
-
-    // add the sprite as a child to this layer
-    this->addChild(pSprite, 0);
     
     // enable touch
     this->setTouchEnabled(true);
@@ -106,22 +100,31 @@ bool HelloWorld::ccTouchBegan(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent
 
 void HelloWorld::ccTouchEnded(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent){
     CCLog("touch");
+    this->removeAllChildren();
     effectIn(pTouch->getLocation());
 }
 
 
 #pragma mark - effect
 void HelloWorld::effectIn(CCPoint point){
-    
+    this->point = point;
     // create call back function
     CCSequence *seq = CCSequence::create(CCCallFunc::create(this, callfunc_selector(HelloWorld::callBack)),NULL);
-    BaseEffectManager *effect = EffectThunderMagic::create();
+    BaseEffectManager *effect = EffectLightMagic::create();
+    effect->setScale(0.5);
+//    BaseEffect *effect = EffectLightSmall::create();
     this->addChild(effect);
     effect->setCallBack(seq);
     effect->effectInPosition(point);
+    
+    
 }
 
 void HelloWorld::callBack(){
+    sprite = CCSprite::create("sraim.png");
+    sprite->setPosition(ccp(point.x, point.y +
+                            sprite->getContentSize().height * 0.5));
+    this->addChild(sprite);
     CCLOG("callback");
 }
 
